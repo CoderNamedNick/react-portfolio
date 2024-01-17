@@ -3,8 +3,16 @@ import React from "react";
 class Header extends React.Component {
   render() {
     return (
-      <div>
-        <h1>Hello World</h1>
+      <div className="flex h3 tc">
+        <div className="outline w-20 pa0 ma0 bg-blue">
+          <h1 className="t light-blue">Hello World</h1>
+        </div>
+        <div className="outline w-20 pa0 ma0">
+          <h1 className=" light-blue">Hello World</h1>
+        </div>
+        <div className="outline w-20 pa0 ma0">
+          <h1 className=" light-blue">Hello World</h1>
+        </div>
       </div>
     )
   }
