@@ -1,17 +1,15 @@
 import React from "react";
+import "./header.css"
 
 class Header extends React.Component {
   render() {
     return (
-      <div className="flex h3 tc">
-        <div className="outline w-20 pa0 ma0 bg-blue">
-          <h1 className="t light-blue">Hello World</h1>
-        </div>
-        <div className="outline w-20 pa0 ma0">
-          <h1 className=" light-blue">Hello World</h1>
-        </div>
-        <div className="outline w-20 pa0 ma0">
-          <h1 className=" light-blue">Hello World</h1>
+      <div className="">
+        <div className="list-div">
+          <li>About Me</li>
+          <li>Previous Jobs</li>
+          <li>Web Dev Journey</li>
+          <li>Projects</li>
         </div>
       </div>
     )
