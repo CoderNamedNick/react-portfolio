@@ -10,9 +10,9 @@ class Intro extends React.Component{
           <img src={Urabe} alt="HandsomeMan"></img>
         </div>
         <div className="Div2">
-          <h1>NAME HERE</h1>
+          <h1>Nicholas Lloyd</h1>
           <h1>Junior Web Developer</h1>
-          <h2>Location</h2>
+          <h2>Niles,MI</h2>
         </div>
       </div>
     )
