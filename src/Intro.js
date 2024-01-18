@@ -1,14 +1,18 @@
 import React from "react";
+import "./Intro.css"
+import Urabe from "./Urabe.png"
 
 class Intro extends React.Component{
   render() {
     return (
-      <div>
-        <img src="" alt="superHandsomeMan"></img>
+      <div className="Intro-main-Div">
         <div>
-          <h2>NAME HERE</h2>
-          <h2>Junior Web Developer</h2>
-          <h3>Location</h3>
+          <img src={Urabe} alt="HandsomeMan"></img>
+        </div>
+        <div className="Div2">
+          <h1>NAME HERE</h1>
+          <h1>Junior Web Developer</h1>
+          <h2>Location</h2>
         </div>
       </div>
     )

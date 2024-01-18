@@ -1,0 +1,25 @@
+.Intro-main-Div{
+  width: 100%;
+  background-color: rgb(75, 110, 150);
+  border-radius: 60px;
+  border-style: ridge;
+  height: 600px;
+  position: absolute;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  justify-content: center;
+}
+img{
+  margin-top: 100px;
+  width: 350px;
+  height: 350px;
+  background-color: blue;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+.Div2{
+  
+}
