@@ -4,7 +4,7 @@ import "./header.css"
 class Header extends React.Component {
   render() {
     return (
-      <div className="">
+      <div>
         <div className="list-div">
           <li>About Me</li>
           <li>Previous Jobs</li>
