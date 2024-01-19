@@ -4,8 +4,13 @@
   text-align: center;
 }
 .AboutMe-Title{
-  color: linearg;
+  color: rgb(236, 137, 90);
+  font-weight: 500;
+  font-size: 45px;
 }
 .tracking-in-contract {
 	animation: tracking-in-contract 1.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+.P-div{
+  margin-top: 80px;
 }

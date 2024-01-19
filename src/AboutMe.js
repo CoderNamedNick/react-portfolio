@@ -44,8 +44,8 @@ const AboutMe = () => {
       onAnimationEnd={handleAnimationEnd}
     >
       <h1 className="AboutMe-Title">About Me</h1>
-      <div>
-        <p className="tracking-in-contract">SAMPLE TEXT</p>
+      <div className="P-div">
+        <p className="tracking-in-contract">Born and raised in Michigan </p>
       </div>
     </div>
   );
