@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(75, 117, 165);
+  -webkit-animation:color-change-2x 5s linear infinite alternate both;animation:color-change-2x 5s linear infinite alternate both
 }
 
 code {
