@@ -1,6 +1,7 @@
 import Header from './Header';
 import Intro from './Intro';
 import AboutMe from './AboutMe'
+import PreviousJobs from './PreviousJobs'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Intro />
       <AboutMe />
+      <PreviousJobs />
     </div>
   );
 }
