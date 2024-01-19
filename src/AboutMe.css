@@ -1,0 +1,11 @@
+.About-Me-Div{
+  margin-top: 140px;
+  width: 100%;
+  text-align: center;
+}
+.AboutMe-Title{
+  color: linearg;
+}
+.tracking-in-contract {
+	animation: tracking-in-contract 1.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}

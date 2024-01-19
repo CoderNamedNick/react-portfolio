@@ -1,6 +1,5 @@
 .Intro-main-Div{
   width: 100%;
-  background-color: rgb(75, 110, 150);
   border-radius: 60px;
   border-style: ridge;
   height: 600px;
@@ -10,12 +9,12 @@
   flex-direction: row;
   gap: 80px;
   justify-content: center;
+  margin-bottom: 400px;
 }
 img{
   margin-top: 120px;
   width: 350px;
   height: 330px;
-  background-color: blue;
   border-style: solid;
   border-radius: 50%;
 }
@@ -23,3 +22,7 @@ img{
 .Div2{
   margin-top: 180px;
 }
+.heartbeat {
+	animation: heartbeat 2.0s ease-in-out infinite both;
+}
+.color-change-2x{-webkit-animation:color-change-2x 2s linear infinite alternate both;animation:color-change-2x 2s linear infinite alternate both}

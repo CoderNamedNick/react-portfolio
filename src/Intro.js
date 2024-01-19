@@ -1,13 +1,14 @@
 import React from "react";
+import './animista.css'
 import "./Intro.css"
 import Urabe from "./Urabe.png"
 
 class Intro extends React.Component{
   render() {
     return (
-      <div className="Intro-main-Div">
+      <div className="Intro-main-Div color-change-2x">
         <div>
-          <img src={Urabe} alt="HandsomeMan"></img>
+          <img className="heartbeat" src={Urabe} alt="HandsomeMan"></img>
         </div>
         <div className="Div2">
           <h1>Nicholas Lloyd</h1>
