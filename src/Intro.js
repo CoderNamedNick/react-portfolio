@@ -14,7 +14,7 @@ class Intro extends React.Component{
           <h1>Nicholas Lloyd</h1>
           <h1>Junior Web Developer</h1>
           <h2>Niles,MI</h2>
-          <a><h5>GITHUB</h5></a>
+          <a className="GithubLink" href="https://github.com/CoderNamedNick"><h5>GITHUB</h5></a>
           <a><h5>My Favorite Project</h5></a>
         </div>
       </div>

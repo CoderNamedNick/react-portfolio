@@ -25,3 +25,6 @@ img{
 .heartbeat {
 	animation: heartbeat 2.0s ease-in-out infinite both;
 }
+.GithubLink{
+  text-decoration: none;
+}
