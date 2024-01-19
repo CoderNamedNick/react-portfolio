@@ -45,7 +45,13 @@ const AboutMe = () => {
     >
       <h1 className="AboutMe-Title">About Me</h1>
       <div className="P-div">
-        <p className="tracking-in-contract">Born and raised in Michigan </p>
+        <p className="tracking-in-contract AboutME-Para">
+          Born and raised in Michigan, I went to Cassopolis Village High School until i moved and graduated at 
+          BrandyWine HighSchool in Niles,MI. While in school i worked many jobs..Pizza Places, When i turned 18
+          i got What i call my first real job working at the Niles Hospital for 2 years. When i Learned about Coding 
+          i decided why not! After getting Introduced to Javascript and python I decided to mainly focus on Javascript and have been
+          since August of 2023. Im looking for an amazing career in Web Developement, but Most importantly to improve my skills!
+        </p>
       </div>
     </div>
   );
