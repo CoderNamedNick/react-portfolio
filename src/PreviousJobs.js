@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import "./PreviousJobs.css"
+import "./animista.css"
 
 class PreviousJobs extends Component {
   constructor(props) {
@@ -35,18 +37,18 @@ class PreviousJobs extends Component {
       1: `Marcello's Pizza| 2-years`,
       2: `Gina's Pizza| 6-Months`,
       3: `Subway| 8-months`,
-      4: `Spectrum Health. now Known as Corewell Health| 2-years`
+      4: `Corewell Health| 2-years`
     };
 
     return (
-      <div>
-        <button onClick={this.handleButtonClick}>Previous Jobs</button>
+      <div className="Main-PJ-Div">
+        <button className="PJ-BTN shadow-drop-2-center" onClick={this.handleButtonClick}>Previous Jobs</button>
 
         {[1, 2, 3, 4].map((jobNumber) => (
           <div key={jobNumber} style={{ display: this.state.visibleJob === jobNumber ? "block" : "none" }}>
             <h3>Job {jobNumber}</h3>
             <br></br>
-            <h3>{jobNames[jobNumber]}</h3>
+            <h2>{jobNames[jobNumber]}</h2>
             <p>{jobDescriptions[jobNumber]}</p>
           </div>
         ))}

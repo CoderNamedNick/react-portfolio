@@ -1,0 +1,16 @@
+.Main-PJ-Div{
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  margin-top: 400px;
+  margin-bottom: 200px;
+}
+.PJ-BTN{
+  padding: 18px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+.shadow-drop-2-center:hover {-webkit-animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both;animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both}

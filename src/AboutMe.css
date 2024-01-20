@@ -18,4 +18,8 @@
 .AboutME-Para{
   width: 70%;
   margin-left: 15%;
+  font-size: 24px;
+  text-decoration: dotted;
+  font-weight: 500;
+  color: rgb(32, 34, 23);
 }
