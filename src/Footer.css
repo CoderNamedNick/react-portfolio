@@ -1,0 +1,9 @@
+.Footer-div{
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  opacity: .5;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+}
