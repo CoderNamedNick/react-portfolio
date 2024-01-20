@@ -18,19 +18,22 @@ class PreviousJobs extends Component {
 
   render() {
     const jobDescriptions = {
-      1: `In Cassopolis, MI. since making this the place has closed down I started working there at 15 while in school.
-        What i feel i Learned was the work force and Customer Service as well as the rush a job has.
+      1: `A place in Cassopolis, MI, which unfortunately has since closed down, 
+        I began working at the age of 15 while still in school. This experience provided me with valuable
+        lessons in the workforce, customer service, and the fast-paced nature of job responsibilities.
       `,
-      2: `In Niles, MI, Also Closed down I worked for a short time delivering pizzas. 
-        Soon Covid would hit and they closed down for good. This made me Learn deadlines and how to manage my time wisely
-        between school and work
+      2: `During a brief stint in Niles, MI, I worked at a pizza delivery service that, regrettably, closed down after the onset of Covid. This experience taught
+       me the importance of meeting deadlines and honing effective time management skills, especially while juggling the demands of both school and work.
       `,
-      3: `In Niles, MI. This place is Still Alive! Working here i was dealing with stress from graduating school and work.
-        Here i learned that co-workers are not all good people (Work Place Drama), but I also learned to not fight but to Compromise.
+      3: `
+      In Niles, MI, I worked at a place that's still alive. Balancing school and work during my graduation period brought its own set of challenges,
+       including dealing with workplace stress. It was an eye-opener about the differences among co-workers,
+       sometimes involving workplace drama. I learned to navigate these situations by prioritizing compromise over conflict.
       `,
-      4: `The Hospital in Niles, MI. This was my first real job after turning 18, I was Incharge of BioHazards and Trash
-        Although it was a "Trashy Job" I learned better customer service and Self Improvement. Here I learned Code (on my free time).
-
+      4: `At the hospital in Niles, MI, I secured my first substantial job after turning 18,
+       taking on responsibilities related to Biohazards and Trash. Despite the nature of the job, which some might describe as "trashy,"
+        I gained valuable insights into customer service and embarked on a journey of self-improvement.
+       In my free time at the hospital, I also delved into coding, further expanding my skill set.
       `,
     };
     const jobNames = {
@@ -45,11 +48,11 @@ class PreviousJobs extends Component {
         <button className="PJ-BTN shadow-drop-2-center" onClick={this.handleButtonClick}>Previous Jobs</button>
 
         {[1, 2, 3, 4].map((jobNumber) => (
-          <div key={jobNumber} style={{ display: this.state.visibleJob === jobNumber ? "block" : "none" }}>
+          <div className="PJ-div" key={jobNumber} style={{ display: this.state.visibleJob === jobNumber ? "block" : "none" }}>
             <h3>Job {jobNumber}</h3>
             <br></br>
             <h2>{jobNames[jobNumber]}</h2>
-            <p>{jobDescriptions[jobNumber]}</p>
+            <p className="p-description">{jobDescriptions[jobNumber]}</p>
           </div>
         ))}
       </div>
