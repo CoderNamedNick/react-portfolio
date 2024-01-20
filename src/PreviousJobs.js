@@ -16,10 +16,26 @@ class PreviousJobs extends Component {
 
   render() {
     const jobDescriptions = {
-      1: "Description for Job 1. This is a great opportunity to showcase your skills.",
-      2: "Description for Job 2. Join our team and be a part of exciting projects.",
-      3: "Description for Job 3. We are looking for motivated individuals to join us.",
-      4: "Description for Job 4. Explore new challenges and grow with us.",
+      1: `In Cassopolis, MI. since making this the place has closed down I started working there at 15 while in school.
+        What i feel i Learned was the work force and Customer Service as well as the rush a job has.
+      `,
+      2: `In Niles, MI, Also Closed down I worked for a short time delivering pizzas. 
+        Soon Covid would hit and they closed down for good. This made me Learn deadlines and how to manage my time wisely
+        between school and work
+      `,
+      3: `In Niles, MI. This place is Still Alive! Working here i was dealing with stress from graduating school and work.
+        Here i learned that co-workers are not all good people (Work Place Drama), but I also learned to not fight but to Compromise.
+      `,
+      4: `The Hospital in Niles, MI. This was my first real job after turning 18, I was Incharge of BioHazards and Trash
+        Although it was a "Trashy Job" I learned better customer service and Self Improvement. Here I learned Code (on my free time).
+
+      `,
+    };
+    const jobNames = {
+      1: `Marcello's Pizza| 2-years`,
+      2: `Gina's Pizza| 6-Months`,
+      3: `Subway| 8-months`,
+      4: `Spectrum Health. now Known as Corewell Health| 2-years`
     };
 
     return (
@@ -29,6 +45,8 @@ class PreviousJobs extends Component {
         {[1, 2, 3, 4].map((jobNumber) => (
           <div key={jobNumber} style={{ display: this.state.visibleJob === jobNumber ? "block" : "none" }}>
             <h3>Job {jobNumber}</h3>
+            <br></br>
+            <h3>{jobNames[jobNumber]}</h3>
             <p>{jobDescriptions[jobNumber]}</p>
           </div>
         ))}
