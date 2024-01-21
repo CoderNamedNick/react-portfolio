@@ -6,7 +6,7 @@ import Urabe from "./Urabe.png"
 class Intro extends React.Component{
   render() {
     return (
-      <div className="Intro-main-Div color-change-2x">
+      <div id="intro" className="Intro-main-Div color-change-2x">
         <div>
           <img className="heartbeat" src={Urabe} alt="HandsomeMan"></img>
         </div>

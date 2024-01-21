@@ -44,7 +44,7 @@ class PreviousJobs extends Component {
     };
 
     return (
-      <div className="Main-PJ-Div">
+      <div id="previousjobs" className="Main-PJ-Div">
         <button className="PJ-BTN shadow-drop-2-center" onClick={this.handleButtonClick}>Previous Jobs</button>
 
         {[1, 2, 3, 4].map((jobNumber) => (
