@@ -1,0 +1,22 @@
+.PRJ-main-div{
+  margin-top: 300px;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+}
+.Project-Pics{
+  width: 40%;
+  border-radius: 20px;
+  border-style: groove;
+  border-width: 2px;
+}
+.PRJ-descr-div{
+  width: 400px;
+  display: inline;
+  position: absolute;
+  margin-left: 5%;
+}
+.p-descr{
+  font-size: 20px;
+}
