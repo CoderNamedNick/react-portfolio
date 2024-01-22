@@ -8,7 +8,7 @@ class Intro extends React.Component{
     return (
       <div id="intro" className="Intro-main-Div color-change-2x">
         <div>
-          <img className="heartbeat" src={Urabe} alt="HandsomeMan"></img>
+          <img className="heartbeat profile-Pic" src={Urabe} alt="HandsomeMan"></img>
         </div>
         <div className="Div2">
           <h1>Nicholas Lloyd</h1>
