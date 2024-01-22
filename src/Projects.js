@@ -20,9 +20,13 @@ class Projects extends React.Component {
         </div>
         <div className="Second-PRJ">
           <img src="" alt="Hidive Project"></img>
-          <h2>Project Name</h2>
+          <h2>RoboFriends</h2>
           <h3>LINK</h3>
-          <p>project description</p>
+          <p>
+            Everyone Has to start somewhere. this was my first look at react and i didn't understand much
+            I still wanna put it in my portfolio because it was a good first Stepping Stone.
+            And it still holds with the fundementals of react.
+          </p>
         </div>
       </div>
     );
