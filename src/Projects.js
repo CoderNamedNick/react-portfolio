@@ -1,5 +1,6 @@
 import React from "react";
 import Project1 from './Screenshot 2024-01-22 172206.png'
+import Project2 from './Screenshot 2024-01-22 175507.png'
 import "./Projects.css"
 
 class Projects extends React.Component {
@@ -19,14 +20,16 @@ class Projects extends React.Component {
           </div>
         </div>
         <div className="Second-PRJ">
-          <img src="" alt="Hidive Project"></img>
-          <h2>RoboFriends</h2>
-          <h3>LINK</h3>
-          <p>
-            Everyone Has to start somewhere. this was my first look at react and i didn't understand much
-            I still wanna put it in my portfolio because it was a good first Stepping Stone.
-            And it still holds with the fundementals of react.
-          </p>
+          <img className="Project-Pics" src={Project2} alt="Hidive Project"></img>
+          <div className="PRJ-descr-div">
+            <h2>RoboFriends</h2>
+            <h3>LINK</h3>
+            <p >
+              Everyone Has to start somewhere. this was my first look at react and i didn't understand much
+              I still wanna put it in my portfolio because it was a good first Stepping Stone.
+              And it still holds with the fundementals of react.
+            </p>
+          </div>
         </div>
       </div>
     );
