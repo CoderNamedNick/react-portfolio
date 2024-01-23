@@ -33,3 +33,9 @@
 .GithubLink{
   text-decoration: none;
 }
+.Div3{
+  position: absolute;
+  margin-top: -500px;
+  margin-left: 10%;
+  color: white;
+}
