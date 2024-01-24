@@ -46,7 +46,7 @@ const AboutMe = () => {
       <h1 className="AboutMe-Title">About Me</h1>
       <div className="P-div">
         <p className="tracking-in-contract AboutME-Para">
-        I'm born and Raised in Michigan , I attended Cassopolis Village High School before completing my high school education at Brandywine High School in Niles, MI. Throughout my school years, I worked various jobs, including positions at pizza places.
+        I am 20 years young raised in Michigan , I attended Cassopolis Village High School before completing my high school education at Brandywine High School in Niles, MI. Throughout my school years, I worked various jobs, including positions at pizza places.
         <br></br>
         <br></br>
         At 18, I landed what I consider my first significant job at Niles Hospital, where I gained two years of valuable experience. It was during this time that I discovered coding. Introduced to Javascript and Python, I decided to focus primarily on Javascript, and I've been dedicated to it since August 2023.
