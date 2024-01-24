@@ -16,11 +16,11 @@ class CodingJourney extends React.Component {
 
   render() {
     return (
-      <div>
-        <button onClick={this.handleButtonClick}>Coding Journey</button>
+      <div className="Main-PJ-Div">
+        <button className="PJ-BTN shadow-drop-2-center" onClick={this.handleButtonClick}>Coding Journey</button>
         {this.state.showParagraph && (
-          <div>
-            <p>
+          <div className="PJ-div">
+            <p className="p-description">
               I've always been fond of computers since young, but my family could never afford one. In high school, I got into gaming.
               From there, I wanted to know more, so I took an Information Technology course online from WGU academy.
               Sadly, I failed the test that I needed to take the full course, so I gave up. In my self-pity, 
