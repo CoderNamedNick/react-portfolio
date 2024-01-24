@@ -7,6 +7,7 @@ class Projects extends React.Component {
   render () {
     return (
       <div className="PRJ-main-div">
+        <h1 className="pj-h1">PROJECTS</h1>
         <div className="First-PRJ">
           <img className="Project-Pics" src={Project1} alt=""></img>
           <div className="PRJ-descr-div">

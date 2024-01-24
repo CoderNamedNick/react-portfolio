@@ -21,16 +21,15 @@ class CodingJourney extends React.Component {
         {this.state.showParagraph && (
           <div className="PJ-div">
             <p className="p-description">
-              I've always been fond of computers since young, but my family could never afford one. In high school, I got into gaming.
-              From there, I wanted to know more, so I took an Information Technology course online from WGU academy.
-              Sadly, I failed the test that I needed to take the full course, so I gave up. In my self-pity, 
-              I started to watch coding videos and game developer videos and just thought "I could never do that."
-              Then I went to YouTube and tried learning Python. Being one of the easiest coding languages to learn, I felt hopeless
-              because I couldn't even learn the "easy one." After some time, I decided to try again but this time with JavaScript.
-              Starting with HTML was hard and CSS harder. But after weeks, I finally felt ready for JavaScript.
-              JS was by far the hardest thing I've learned in life, watching YouTube tutorials and getting Udemy courses.
-              I started to make my own private projects on GitHub and learned Git and React JS.
-              I'm glad to announce that I finally feel that I can help companies and myself improve.
+            In high school, my interest in technology deepened through gaming, making me seek further knowledge. I enrolled in an Information Technology course online at WGU Academy with the aspiration of expanding my skills.
+            <br></br><br></br>
+            Unfortunately, I failed the test required to complete the course, Without hope, I immersed myself in coding and game development videos, believing that such feats were beyond my reach.
+            <br></br><br></br>
+            I turned to YouTube to learn Python, initially considered one of the more accessible programming languages, I found very challenging. Determined to overcome this hurdle, I shifted my focus to JavaScript. The journey was hard with the complexities of HTML and CSS. However, with persistent effort over weeks, I gradually gained proficiency and felt prepared to tackle JavaScript.
+            <br></br><br></br>
+            JavaScript proved to be the most hardship in my learning journey. Through YouTube tutorials and Udemy courses, I delved into the intricacies of the language. Establishing my presence on GitHub, I undertook private projects, honed my skills in Git, and ventured into React JS.
+            <br></br><br></br>
+            Today, I am pleased to announce that I have reached a point where I am confident in my ability to contribute to companies and enhance my personal growth.
             </p>
           </div>
         )}
