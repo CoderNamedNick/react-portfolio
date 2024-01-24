@@ -1,5 +1,5 @@
 .Intro-main-Div{
-  background-color: rgba(0, 0, 0, 0.842);
+  background-color: rgba(19, 19, 19, 0.842);
   color: white;
   width: 100%;
   border-radius: 20px;
@@ -38,4 +38,7 @@
   margin-top: -500px;
   margin-left: 10%;
   color: white;
+}
+.Logos{
+  width: 60px;
 }

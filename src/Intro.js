@@ -2,6 +2,15 @@ import React from "react";
 import './animista.css'
 import "./Intro.css"
 import Urabe from "./Urabe.png"
+import GitHubLogo from './icons/icons8-github-48.png'
+import GitLogo from './icons/icons8-git-96.png'
+import VSLogo from './icons/icons8-vs-code-96.png'
+import htmlLogo from './icons/icons8-html-96.png'
+import cssLogo from './icons/icons8-css-96.png'
+import JsLogo from './icons/icons8-javascript-96.png'
+import ReactLogo from './icons/icons8-react-js-80.png'
+import NodeLogo from './icons/icons8-node-js-96.png'
+import NpmLogo from './icons/icons8-npm-96.png'
 
 class Intro extends React.Component{
   render() {
@@ -21,6 +30,15 @@ class Intro extends React.Component{
         </div>
         <div className="Div3">
           <h1>Skills</h1>
+          <img className="Logos" src={GitHubLogo}></img>
+          <img className="Logos" src={GitLogo}></img>
+          <img className="Logos" src={VSLogo}></img>
+          <img className="Logos" src={htmlLogo}></img>
+          <img className="Logos" src={cssLogo}></img>
+          <img className="Logos" src={JsLogo}></img>
+          <img className="Logos" src={ReactLogo}></img>
+          <img className="Logos" src={NodeLogo}></img>
+          <img className="Logos" src={NpmLogo}></img>
           {/* make logos and other Skills here */}
         </div>
       </div>
