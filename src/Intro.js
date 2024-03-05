@@ -1,7 +1,7 @@
 import React from "react";
 import './animista.css'
 import "./Intro.css"
-import Urabe from "./Urabe.png"
+import Pic from "./portfolio pic2.jpeg"
 import GitHubLogo from './icons/icons8-github-48.png'
 import GitLogo from './icons/icons8-git-96.png'
 import VSLogo from './icons/icons8-vs-code-96.png'
@@ -18,7 +18,7 @@ class Intro extends React.Component{
       <div>
         <div id="intro" className="Intro-main-Div color-change-2x">
           <div>
-            <img className="heartbeat profile-Pic" src={Urabe} alt="HandsomeMan"></img>
+            <img className="heartbeat profile-Pic" src={Pic} alt="HandsomeMan"></img>
           </div>
           <div className="Div2">
             <h1>Nicholas Lloyd</h1>
