@@ -10,11 +10,11 @@ class Projects extends React.Component {
       <div className="PRJ-main-div">
         <h1 className="pj-h1">PROJECTS</h1>
         <div className="First-PRJ">
-          <img className="Project-Pics" src={Project1} alt=""></img>
+          <img className="Project-Pics" src={Project1} alt="Hidive Project"></img>
           <div className="PRJ-descr-div">
             <h1>Hidive Clone</h1>
             <h3>LINK</h3>
-            <h3>Repository</h3>
+            <h3><a href="https://github.com/CoderNamedNick/HiDiveCloneProject">Repository</a></h3>
             <p className="p-descr">
               This is My favorite project! I wanted to do something not only 
               Original.. As in NO tutorials how to do it, but i wanted to make something big with 
@@ -27,7 +27,7 @@ class Projects extends React.Component {
           <div className="PRJ-descr-div">
             <h2>React RPG GAME</h2>
             <h3><a href="https://codernamednick.github.io/RPG-react-game/">LINK</a></h3>
-            <h3>Repository</h3>
+            <h3><a href="https://github.com/CoderNamedNick/RPG-react-game">Repository</a></h3>
             <p >
               I wanted to make a game so that people can interact and give me feed back. Im not a game developer
               but i wanted to make something with react that atleast i havent seen before or neither have you.
@@ -39,7 +39,7 @@ class Projects extends React.Component {
           <img className="Project-Pics" src={Project2} alt="Robofriends Project"></img>
           <div className="PRJ-descr-div">
             <h2>RoboFriends</h2>
-            <h3>Repository</h3>
+            <h3><a href="https://github.com/CoderNamedNick/Learning-React">Repository</a></h3>
             <p >
               Everyone Has to start somewhere. this was my first look at react and i didn't understand much
               I still wanna put it in my portfolio because it was a good first Stepping Stone.
