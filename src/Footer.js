@@ -8,7 +8,7 @@ class Footer extends React.Component {
     return (
       <div className="Footer-div">
         <li><a href="https://github.com/CoderNamedNick">GitHub</a></li>
-        <li>Email</li>
+        <li><a href="mailto:nclloyd422@hotmail.com">Email</a></li>
         <li>{li3}</li>
         <li>Facebook</li>
       </div>
