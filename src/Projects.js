@@ -2,7 +2,6 @@ import React from "react";
 import Project1 from './images/Screenshot 2024-01-22 172206.png'
 import Project2 from './images/Screenshot 2024-01-22 175507.png'
 import Project3 from './images/Screenshot 2024-03-05 121010.png'
-import "./Projects.css"
 
 class Projects extends React.Component {
   render () {

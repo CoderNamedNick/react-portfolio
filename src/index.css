@@ -13,3 +13,178 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.About-Me-Div{
+  margin-top: 140px;
+  width: 100%;
+  text-align: center;
+}
+.AboutMe-Title{
+  color: rgb(236, 137, 90);
+  font-weight: 500;
+  font-size: 45px;
+}
+.tracking-in-contract {
+	animation: tracking-in-contract 1.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+.P-div{
+  margin-top: 40px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px;
+  border-style: ridge;
+  align-self: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  opacity: .5;
+}
+.P-div:hover{
+  opacity: 1;
+  color: rgb(46, 46, 46);
+}
+.AboutME-Para{
+  width: 70%;
+  margin-left: 15%;
+  font-size: 24px;
+  text-decoration: dotted;
+  font-weight: 500;
+  color: rgb(32, 34, 23);
+}
+.PRJ-main-div{
+  margin-top: 500px;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 180px;
+}
+.Project-Pics{
+  width: 40%;
+  border-radius: 20px;
+  border-style: groove;
+  border-width: 2px;
+  margin-top: 30px;
+}
+.PRJ-descr-div{
+  width: 400px;
+  display: inline;
+  position: absolute;
+  margin-left: 5%;
+}
+.p-descr{
+  font-size: 18px;
+}
+.pj-h1{
+  margin-left: 30%;
+  position: absolute;
+  margin-top: -100px;
+  color: rgb(27, 23, 39);
+  text-decoration: wavy;
+  text-decoration-line: underline;
+}
+.Footer-div{
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  opacity: .5;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+}
+.list-div{
+  background-color: rgba(192, 188, 188, 0.548);
+  padding: 16px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  z-index: 100;
+}
+li{
+  list-style: none;
+  display: inline;
+  padding-right: 30px;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+li:hover{
+  color: aquamarine;
+}
+.Intro-main-Div{
+  background-color: rgba(19, 19, 19, 0.842);
+  color: white;
+  width: 100%;
+  border-radius: 20px;
+  border-bottom-style: solid;
+  border-bottom-width: 10px;
+  border-bottom-color: rgba(63, 62, 62, 0.151);
+  height: 600px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  justify-content: center;
+  padding-bottom: 300px;
+  padding-top: 100px;
+  margin-bottom: 200px;
+}
+.profile-Pic{
+  margin-top: 140px;
+  width: 360px;
+  height: 360px;
+  border-style: solid;
+  border-radius: 20%;
+}
+
+.Div2{
+  margin-top: 180px;
+}
+.heartbeat {
+	animation: heartbeat 2.0s ease-in-out infinite both;
+}
+.GithubLink{
+  text-decoration: none;
+}
+.Div3{
+  position: absolute;
+  margin-top: -500px;
+  margin-left: 10%;
+  color: white;
+}
+.Logos{
+  width: 60px;
+  padding-right: 10px;
+}
+.Main-PJ-Div{
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  margin-top: 400px;
+  margin-bottom: 200px;
+}
+.PJ-BTN{
+  padding: 18px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+.shadow-drop-2-center:hover {-webkit-animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both;animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both}
+
+.PJ-div{
+  margin-top: 40px;
+  text-align: center;
+  border-radius: 20px;
+  height: 100%;
+  border: 2px;
+  border-style: solid;
+  align-self: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.p-description{
+  font-size: 20px;
+}

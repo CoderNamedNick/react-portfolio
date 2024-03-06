@@ -1,6 +1,5 @@
 import React from "react";
 import './animista.css'
-import "./Intro.css"
 import Pic from "./images/portfolio pic2.jpeg"
 import GitHubLogo from './icons/icons8-github-48.png'
 import GitLogo from './icons/icons8-git-96.png'

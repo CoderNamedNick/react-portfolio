@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.css'
 import Intro from './Intro';
 import AboutMe from './AboutMe';
 import PreviousJobs from './PreviousJobs';
