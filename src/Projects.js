@@ -47,6 +47,16 @@ class Projects extends React.Component {
             </p>
           </div>
         </div>
+        <div className="Second-PRJ">
+          <img className="Project-Pics" alt="COMING SOON"></img>
+          <div className="PRJ-descr-div">
+            <h2>COMING SOON</h2>
+            <h3>COMING SOON</h3>
+            <p >
+              COMING SOON
+            </p>
+          </div>
+        </div>
       </div>
     );
   }
