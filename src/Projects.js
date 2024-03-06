@@ -12,7 +12,7 @@ class Projects extends React.Component {
           <img className="Project-Pics" src={Project1} alt="Hidive Project"></img>
           <div className="PRJ-descr-div">
             <h1>Hidive Clone</h1>
-            <h3>LINK</h3>
+            <h3><a href="https://codernamednick.github.io/HiDiveCloneProject/Hidiveclone/index.html">LINK</a></h3>
             <h3><a href="https://github.com/CoderNamedNick/HiDiveCloneProject">Repository</a></h3>
             <p className="p-descr">
               This is My favorite project! I wanted to do something not only 
