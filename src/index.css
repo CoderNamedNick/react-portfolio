@@ -27,6 +27,7 @@ code {
 	animation: tracking-in-contract 1.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 .P-div{
+  width: fit-content;
   margin-top: 40px;
   text-align: center;
   border-radius: 20px;
@@ -112,14 +113,18 @@ li{
 li:hover{
   color: aquamarine;
 }
+.Intro-main{
+  width: 100%;
+  background-color: rgb(29, 29, 29);
+}
 .Intro-main-Div{
-  background-color: rgba(19, 19, 19, 0.842);
+  background-color: rgba(29, 29, 29, 0.842);
   color: white;
   width: 100%;
   border-radius: 20px;
   border-bottom-style: solid;
   border-bottom-width: 10px;
-  border-bottom-color: rgba(63, 62, 62, 0.151);
+  border-bottom-color: rgb(19, 19, 19);
   height: 600px;
   position: relative;
   display: flex;
@@ -127,7 +132,7 @@ li:hover{
   gap: 80px;
   justify-content: center;
   padding-bottom: 300px;
-  padding-top: 100px;
+  padding-top: 00px;
   margin-bottom: 200px;
 }
 .profile-Pic{
@@ -187,4 +192,80 @@ li:hover{
 }
 .p-description{
   font-size: 20px;
+}
+
+/* better for phone styles */
+
+@media (max-width: 820px) {
+  .Intro-main {
+    width: 820px; 
+  }
+  .profile-Pic{
+    margin-top: 200px;
+    margin-left: -220px;
+    width: 260px;
+    height: 260px;
+    border-style: solid;
+    border-radius: 15%;
+  }
+  .Div2{
+    width: 200px;
+  }
+  .AboutME-Para{
+    width: 460px;
+  }
+  .P-div{
+    width: 600px;
+  }
+}
+
+@media (max-width: 340px) {
+  .Intro-main {
+    width: 600px; 
+    margin-top: -80px;
+  }
+  .profile-Pic{
+    margin-top: 200px;
+    margin-left: 0px;
+    width: 170px;
+    height: 170px;
+    border-style: solid;
+    border-radius: 15%;
+  }
+  .Div2{
+    width: 160px;
+  }
+  .Div3{
+    width: 500px;
+  }
+  .AboutME-Para{
+    width: 360px;
+  }
+  .P-div{
+    width: 500px;
+    margin-left: 10%;
+  }
+  .p-descr{
+    width: 250px;
+  }
+  .Second-PRJ{
+    margin-top: 40px;
+  }
+  .Project-Pics{
+    width: 240px;
+  }
+  .Main-PJ-Div{
+    width: 550px;
+    margin-left: 10%;
+  }
+  .PRJ-descr-div{
+    width: 300px;
+  }
+  .PJ-div{
+    width: 450px;
+    margin-left: 50px;
+  }
+  .Footer-div{
+    width: 600px;
+  }
 }

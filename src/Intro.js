@@ -14,7 +14,7 @@ import NpmLogo from './icons/icons8-npm-96.png'
 class Intro extends React.Component{
   render() {
     return (
-      <div>
+      <div className="Intro-main">
         <div id="intro" className="Intro-main-Div color-change-2x">
           <div>
             <img className="heartbeat profile-Pic" src={Pic} alt="HandsomeMan"></img>
